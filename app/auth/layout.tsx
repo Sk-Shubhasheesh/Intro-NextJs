@@ -1,5 +1,14 @@
 // Layouts in sub routes  - if you want to show the all the pageses the same banner that start with /sigin route we add these things in layout 
 
+/** Merging routes
+ *  What if you wan’t to get the banner in both signup and signin?
+
+Approach #1
+Move both the signin and signup folder inside a auth folder where we have the layout
+You can access the routes at 
+http://localhost:3000/auth/signup and http://localhost:3000/auth/signin
+ */
+
 import React from "react"
 
 export default function({children}:{
