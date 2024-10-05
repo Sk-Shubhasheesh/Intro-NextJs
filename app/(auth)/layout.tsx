@@ -7,6 +7,14 @@ Approach #1
 Move both the signin and signup folder inside a auth folder where we have the layout
 You can access the routes at 
 http://localhost:3000/auth/signup and http://localhost:3000/auth/signin
+
+
+
+Approach #2
+You can use create a new folder with () around the name. 
+This folder is ignored by the router.
+You can access the routes at -
+http://localhost:3000/signup and http://localhost:3000/signin
  */
 
 import React from "react"
